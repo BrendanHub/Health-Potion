@@ -1,8 +1,9 @@
 #A character in a game picks up a health potion that generates a random health amount.
-#1st step: We need to import pythons internal random number generator
 
 import.random
 health = 50
-potion_health = random.randint(1,100)
+difficulty = 1
+potion_health = int.random.randint(1,100)/ difficulty)
 health = health + potion_health
-print (health)
+print (health) 
+
