@@ -3,7 +3,7 @@
 import.random
 health = 50
 difficulty = 1
-potion_health = int.random.randint(1,100)/ difficulty)
+potion_health = int(random.randint(1,100)/ difficulty)
 health = health + potion_health
 print (health) 
 
